@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ImprimeImparesEPares.cs" />
+    <Compile Include="ImprimeMultiplosDe4.cs" />
+    <Compile Include="ImprimeNome.cs" />
+    <Compile Include="ImprimeNumeros.cs" />
+    <Compile Include="ImprimeTriangulo.cs" />
+    <Compile Include="ImprimeVariosTriangulos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SequenciaFibonnacci.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
