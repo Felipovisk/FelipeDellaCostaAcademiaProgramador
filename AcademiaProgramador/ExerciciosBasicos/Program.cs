@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace ExerciciosBasicos
 {
-    class Program
+    internal class Program
     {
         public static void Main(string[] args)
         {
             MenuPrincipal();
-
-            
         }
 
         public static void MenuPrincipal()
@@ -30,58 +28,54 @@ namespace ExerciciosBasicos
 
             int opcaoMenu = int.Parse(Console.ReadLine());
 
-            while (opcaoMenu != 8)
+            if (opcaoMenu == 1)
             {
-                if (opcaoMenu == 1)
-                {
-                    //imprime nome numerado.
-                    ImprimeNome.ImprimindoNome();
-                   
-                    MenuPrincipal();
+                //imprime nome numerado.
+                ImprimeNome.ImprimindoNome();
 
-                }
-                if (opcaoMenu == 2)
-                {
-                    //imprime numeros em sequencia.
-                    ImprimeNumeros.ImprimindoNumeros();
-                    MenuPrincipal();
-                }
-                if (opcaoMenu == 3)
-                {
-                    //imprime numeros diferenciando impares(*) e pares(**).
-                    ImprimeImparesEPares.ImprimindoParesEImpares();
-                    MenuPrincipal();
-                }
-                if (opcaoMenu == 4)
-                {
-                    //imprime numeros em sequencia e os multiplos de 4(PI).
-                    ImprimeMultiplosDe4.ImprimindoMultiplosDe4();
-                    MenuPrincipal();
-                }
-                if (opcaoMenu == 5)
-                {
-                    // imprime um triangulo de *
-                    ImprimeTriangulo.ImprimindoTriangulo();
-                    MenuPrincipal();
-                }
-                if (opcaoMenu == 6)
-                {
-                    //imprime varios triangulos de *
-                    ImprimeVariosTriangulos.ImprimindoTriangulos();
-                    MenuPrincipal();
-                }
-                if (opcaoMenu == 7)
-                {
-                    //imprime sequencia de fibonnacci
-                    SequenciaFibonnacci.ImprimindoSequencia();
-                    MenuPrincipal();
-                }
-                if (opcaoMenu == 8)
-                {
-                    //finaliza o programa
-                    Console.WriteLine("PROGRAMA FINALIZADO.");
-                    break;
-                }
+                MenuPrincipal();
+            }
+            if (opcaoMenu == 2)
+            {
+                //imprime numeros em sequencia.
+                ImprimeNumeros.ImprimindoNumeros();
+                MenuPrincipal();
+            }
+            if (opcaoMenu == 3)
+            {
+                //imprime numeros diferenciando impares(*) e pares(**).
+                ImprimeImparesEPares.ImprimindoParesEImpares();
+                MenuPrincipal();
+            }
+            if (opcaoMenu == 4)
+            {
+                //imprime numeros em sequencia e os multiplos de 4(PI).
+                ImprimeMultiplosDe4.ImprimindoMultiplosDe4();
+                MenuPrincipal();
+            }
+            if (opcaoMenu == 5)
+            {
+                // imprime um triangulo de *
+                ImprimeTriangulo.ImprimindoTriangulo();
+                MenuPrincipal();
+            }
+            if (opcaoMenu == 6)
+            {
+                //imprime varios triangulos de *
+                ImprimeVariosTriangulos.ImprimindoTriangulos();
+                MenuPrincipal();
+            }
+            if (opcaoMenu == 7)
+            {
+                //imprime sequencia de fibonnacci
+                SequenciaFibonnacci.ImprimindoSequencia();
+                MenuPrincipal();
+            }
+            if (opcaoMenu == 8)
+            {
+                //finaliza o programa
+                Console.WriteLine("PROGRAMA FINALIZADO.");
+                
             }
         }
     }
