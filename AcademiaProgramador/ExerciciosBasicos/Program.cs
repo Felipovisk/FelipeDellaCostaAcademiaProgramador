@@ -75,6 +75,9 @@ namespace ExerciciosBasicos
             {
                 //finaliza o programa
                 Console.WriteLine("PROGRAMA FINALIZADO.");
+                Console.ReadKey();
+                Environment.Exit(0);
+                
                 
             }
         }

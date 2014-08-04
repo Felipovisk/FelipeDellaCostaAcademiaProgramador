@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercicios Basicos", "Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciciosBasicos", "ExerciciosBasicos\ExerciciosBasicos.csproj", "{58C76376-5C0A-4B1A-B89B-946AEAFAFA90}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidade 1", "Unidade 1", "{5022674A-551B-4EF2-B386-0C0ED08582C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unidade 2", "Unidade 2", "{2CEF01D8-6D0E-4E5B-86F6-024E0325416F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
